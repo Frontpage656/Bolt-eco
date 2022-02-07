@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/CSS/Bolteco/app/src/main/res/drawable/button_add.xml" value="0.1881578947368421" />
+        <entry key="..\:/CSS/Bolteco/app/src/main/res/drawable/button_it.xml" value="0.1881578947368421" />
+        <entry key="..\:/CSS/Bolteco/app/src/main/res/drawable/frame.xml" value="0.19324324324324324" />
+        <entry key="..\:/CSS/Bolteco/app/src/main/res/drawable/like.xml" value="0.19324324324324324" />
+        <entry key="..\:/CSS/Bolteco/app/src/main/res/drawable/search.xml" value="0.1881578947368421" />
+        <entry key="..\:/CSS/Bolteco/app/src/main/res/drawable/search_it.xml" value="0.19324324324324324" />
+        <entry key="..\:/CSS/Bolteco/app/src/main/res/layout/activity_add_adress.xml" value="0.25" />
+        <entry key="..\:/CSS/Bolteco/app/src/main/res/layout/activity_adress.xml" value="0.2" />
+        <entry key="..\:/CSS/Bolteco/app/src/main/res/layout/activity_all_fragments.xml" value="0.25" />
+        <entry key="..\:/CSS/Bolteco/app/src/main/res/layout/activity_login.xml" value="0.25" />
+        <entry key="..\:/CSS/Bolteco/app/src/main/res/layout/activity_main.xml" value="0.20729166666666668" />
+        <entry key="..\:/CSS/Bolteco/app/src/main/res/layout/activity_payments.xml" value="0.22" />
+        <entry key="..\:/CSS/Bolteco/app/src/main/res/layout/activity_register.xml" value="0.25" />
+        <entry key="..\:/CSS/Bolteco/app/src/main/res/layout/activity_ui_details.xml" value="0.2" />
+        <entry key="..\:/CSS/Bolteco/app/src/main/res/layout/activity_welcome.xml" value="0.25" />
+        <entry key="..\:/CSS/Bolteco/app/src/main/res/layout/address_it.xml" value="0.25" />
+        <entry key="..\:/CSS/Bolteco/app/src/main/res/layout/address_view.xml" value="0.17456140350877192" />
+        <entry key="..\:/CSS/Bolteco/app/src/main/res/layout/category.xml" value="0.22" />
+        <entry key="..\:/CSS/Bolteco/app/src/main/res/layout/fragment_cart.xml" value="0.16977777777777778" />
+        <entry key="..\:/CSS/Bolteco/app/src/main/res/layout/fragment_home.xml" value="0.22" />
+        <entry key="..\:/CSS/Bolteco/app/src/main/res/layout/fragmentsholder_screen.xml" value="0.20729166666666668" />
+        <entry key="..\:/CSS/Bolteco/app/src/main/res/layout/login_screen.xml" value="0.20729166666666668" />
+        <entry key="..\:/CSS/Bolteco/app/src/main/res/layout/one_feature.xml" value="0.25" />
+        <entry key="..\:/CSS/Bolteco/app/src/main/res/layout/ontrend_view.xml" value="0.33" />
+        <entry key="..\:/CSS/Bolteco/app/src/main/res/layout/register_screen.xml" value="0.25" />
+        <entry key="..\:/CSS/Bolteco/app/src/main/res/layout/welcome_screen.xml" value="0.22" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

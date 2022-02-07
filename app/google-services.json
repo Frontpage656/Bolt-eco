@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1053266163136",
+    "project_id": "bolt-1c098",
+    "storage_bucket": "bolt-1c098.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1053266163136:android:639c4e07ab769722334425",
+        "android_client_info": {
+          "package_name": "com.example.bolteco"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1053266163136-d5skpbohnsi6b69ak0gn8gra1jiip9rm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCe8UfGJuLXm-3YVJ0PYkqH5EL6JrY0MPs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1053266163136-d5skpbohnsi6b69ak0gn8gra1jiip9rm.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

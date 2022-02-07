@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="8dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/welcome_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/lato_bold"
+            android:text="welcome!!"
+            android:textStyle="bold"
+            android:layout_marginTop="22dp"
+            android:textColor="@color/black"
+            android:textSize="25dp" />
+
+        <ImageView
+            android:layout_width="322dp"
+            android:layout_height="216dp"
+            android:layout_marginTop="15dp"
+            android:layout_gravity="center"
+            android:src="@drawable/welcome_image" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/lato_bold"
+            android:gravity="center"
+            android:text="Unyama shop"
+            android:layout_marginTop="22dp"
+            android:textColor="@color/black"
+            android:textSize="20dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:text="This is the only shop you can buy using bitcoin, buy one and get one of your favorite."
+            android:textColor="@color/black"
+            android:textSize="15dp" />
+
+        <Button
+            android:id="@+id/login"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:fontFamily="@font/lato_bold"
+            android:textStyle="bold"
+            android:background="@drawable/button_it"
+            android:text="login"
+            android:textAllCaps="false" />
+
+        <TextView
+            android:id="@+id/sign_up"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/lato_bold"
+            android:gravity="center"
+            android:text="sign up"
+            android:textColor="@color/black"
+            android:textSize="15dp" />
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>

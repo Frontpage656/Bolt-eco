@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="20dp"
+        android:padding="15dp">
+
+        <ImageView
+            android:id="@+id/back_arrow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/back_arrow" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:fontFamily="@font/lato_bold"
+            android:text="Regster..."
+            android:textColor="@color/black"
+            android:textSize="25dp"
+            android:textStyle="bold" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:fontFamily="@font/lato_bold"
+            android:text="Get notifications emails??"
+            android:textSize="18dp"
+           />
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:layout_marginTop="10dp"
+            android:layout_height="wrap_content">
+
+            <RadioButton
+                android:id="@+id/yes_opt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:layout_marginLeft="52dp"
+                android:textSize="13dp"
+                android:fontFamily="@font/lato_bold"
+                android:layout_weight="1"
+                android:text="YES" />
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="NO"
+                android:textSize="13dp"
+                android:layout_marginRight="52dp"
+                android:fontFamily="@font/lato_bold"
+                android:textStyle="bold"
+                android:layout_weight="1"
+                android:id="@+id/no_opt"/>
+
+        </RadioGroup>
+
+        <EditText
+            android:id="@+id/userName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:fontFamily="@font/lato_bold"
+            android:hint="Usename"
+            android:textColor="@color/black" />
+
+        <EditText
+            android:id="@+id/newUser_email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:inputType="textEmailAddress"
+            android:fontFamily="@font/lato_bold"
+            android:hint="Email"
+            android:textColor="@color/black" />
+        <EditText
+            android:id="@+id/newUser_password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:inputType="textPassword"
+            android:fontFamily="@font/lato_bold"
+            android:hint="Password"
+            android:textColor="@color/black" />
+
+        <EditText
+            android:id="@+id/password_comfim"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPassword"
+            android:layout_marginTop="16dp"
+            android:fontFamily="@font/lato_bold"
+            android:hint="Confirm password"
+            android:textColor="@color/black" />
+
+        <Button
+            android:id="@+id/signup_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="38dp"
+            android:background="@drawable/button_it"
+            android:fontFamily="@font/lato_bold"
+            android:text="sign up"
+            android:textAllCaps="false"
+            android:textStyle="bold" />
+        <TextView
+            android:id="@+id/login_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/lato_bold"
+            android:gravity="center"
+            android:text="log in"
+            android:textColor="@color/black"
+            android:textSize="15dp" />
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>
